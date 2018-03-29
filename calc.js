@@ -20,7 +20,7 @@ form.addEventListener('submit', function(event) {
         var result = x / y; 
         var percent = result * 100;
         
-        resultField.innerText = "Answer: " + percent + "%";
+        resultField.innerText = "Answer: " + percent.toFixed(2) + "%";
         event.preventDefault();
     }   
 });
