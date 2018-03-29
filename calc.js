@@ -3,6 +3,11 @@ var numField2 = document.getElementById('numField2');
 var resultField = document.getElementById('resultField');
 var form = document.getElementById('xIsWhatPercentOfY'); 
 
+var numField1 = document.getElementById('num1');
+var numField2 = document.getElementById('num2');
+var resultField = document.getElementById('resultField');
+var form = document.getElementById('form1'); 
+
 
 form.addEventListener('submit', function(event) {
     if (!numField1.value || !numField2.value) {
